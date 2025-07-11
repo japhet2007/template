@@ -1,0 +1,23 @@
+body{
+    /* Reset default */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(126, 160, 190);
+
+    /* Colorimetrie */
+    --black: #302c2c;
+    --black1: #e71919;
+
+    /* Autre style general */
+    font-family: "bahnschrift";
+}
+.dark{
+    background-color: var(--black);
+}
+.dark1{
+    background-color: var(--black1);
+}
+#submenu1 a:hover{
+    background-color: burlywood;
+}
